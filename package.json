@@ -1,0 +1,20 @@
+{
+  "name": "consulta-boleto",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "repository": "git@github.com:victorlscherer/consulta-boleto.git",
+  "author": "Victor Scherer <victor_scherer@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "jest": "^28.1.1",
+    "nodemon": "^2.0.16"
+  },
+  "scripts": {
+    "dev": "nodemon --experimental-specifier-resolution=node src/server.js",
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest"
+  },
+  "type": "module"
+}
